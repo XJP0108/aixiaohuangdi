@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>💗 爱小皇帝 使用说明书</title>
+<style>
+:root{--pink:#ff85a2;--pink-dark:#e8577a;--pink-light:#ffb6c9;--pink-bg:#fff0f3;--white:#fff;--text:#5c3d4a;--text-light:#9a7d8a;--radius:20px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;background:var(--pink-bg);color:var(--text);max-width:600px;margin:0 auto;padding:20px;line-height:1.8}
+.header{text-align:center;padding:30px 20px;background:linear-gradient(135deg,#ff85a2,#ffb3c6);border-radius:var(--radius);color:white;margin-bottom:24px;box-shadow:0 8px 30px rgba(255,133,162,.3)}
+.header .hk{font-size:60px;margin-bottom:8px;filter:drop-shadow(0 4px 8px rgba(0,0,0,.1))}
+.header h1{font-size:26px;letter-spacing:1px;margin-bottom:4px}
+.header p{font-size:14px;opacity:.9;margin-top:8px;line-height:1.6}
+.section{background:white;border-radius:var(--radius);padding:20px;margin-bottom:16px;box-shadow:0 4px 15px rgba(255,133,162,.1)}
+.section h2{font-size:18px;color:var(--pink-dark);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.section h2 .icon{font-size:22px}
+.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:420px){.feature-grid{grid-template-columns:1fr}}
+.feature-item{background:var(--pink-bg);border-radius:15px;padding:16px;text-align:center;transition:transform .2s}
+.feature-item:hover{transform:translateY(-2px)}
+.feature-item .emoji{font-size:36px;margin-bottom:6px}
+.feature-item h4{font-size:14px;color:var(--pink-dark);margin-bottom:4px}
+.feature-item p{font-size:11px;color:var(--text-light);line-height:1.5}
+.step{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px}
+.step-num{width:32px;height:32px;border-radius:50%;background:var(--pink-dark);color:white;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;font-size:14px}
+.step-content h4{font-size:14px;color:var(--text);margin-bottom:2px}
+.step-content p{font-size:12px;color:var(--text-light)}
+.tip{background:linear-gradient(135deg,#fff5f7,#ffe8ee);border-left:4px solid var(--pink-dark);border-radius:0 15px 15px 0;padding:14px 18px;margin:16px 0;font-size:13px}
+.tip::before{content:'💡 ';font-weight:600}
+.phrase-box{background:white;border:2px dashed var(--pink-light);border-radius:var(--radius);padding:20px;margin:16px 0;text-align:center}
+.phrase-box p{color:var(--pink-dark);font-size:15px;font-weight:500;margin:4px 0}
+.footer{text-align:center;padding:20px;color:var(--text-light);font-size:12px}
+.footer .hk-end{font-size:40px;display:block;margin-bottom:8px}
+.signature{margin-top:12px;font-size:13px;color:var(--pink-dark);font-weight:600}
+.cta-btn{display:block;text-align:center;background:linear-gradient(135deg,#ff85a2,#ff6b8a);color:white;padding:14px;border-radius:30px;text-decoration:none;font-weight:700;font-size:16px;margin:20px 0;box-shadow:0 4px 15px rgba(255,107,138,.35);transition:transform .2s}
+.cta-btn:active{transform:scale(.96)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="hk">🐱🎀</div>
+  <h1>💗 爱小皇帝</h1>
+  <p>专属于我们两个人的<br>❤️ 感情记录 & 成长空间 ❤️</p>
+</div>
+
+<div class="section">
+  <h2><span class="icon">🌸</span>这是做什么的？</h2>
+  <p style="font-size:14px;line-height:1.8">
+    一个<b>只属于我们俩</b>的小空间——用来记录心情、纪念日、答应彼此的事，还有吵架后学到的教训。
+  </p>
+  <p style="font-size:14px;line-height:1.8;margin-top:8px">
+    <b>不是为了分对错</b>，而是为了让每一次争吵之后，我们的感情<b>变得更好</b>。每次吵架都记录下来，看看我们学到了什么，以后就不会再因为同样的原因生气了 💗
+  </p>
+  <div class="phrase-box">
+    <p>💬 「吵完架不是翻篇，而是一起成长」</p>
+    <p style="font-size:12px;color:var(--text-light)">—— 这就是爱小皇帝存在的意义</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="icon">🎀</span>功能介绍</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <div class="emoji">📸</div>
+      <h4>换封面照片</h4>
+      <p>上传我的美照，想换就换~</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">💞</div>
+      <h4>纪念日倒计时</h4>
+      <p>记录在一起多久了，每天增加</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">📝</div>
+      <h4>承诺看板</h4>
+      <p>你答应我的事都记下来！逾期还会标红</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🌈</div>
+      <h4>心情日记</h4>
+      <p>每天选表情，Ta也能看到我的心情</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">💌</div>
+      <h4>道歉信箱</h4>
+      <p>写封信给Ta，Ta原谅后会+15感情币</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">📊</div>
+      <h4>健康周报</h4>
+      <p>每周看数据：吵架几次、兑现了多少承诺</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🏦</div>
+      <h4>感情银行</h4>
+      <p>好事加分、吵架扣分，余额越多感情越好</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🧊</div>
+      <h4>冷静模式</h4>
+      <p>吵架时点一下，15分钟深呼吸再沟通</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">❓</div>
+      <h4>每日一问</h4>
+      <p>每天一个问题，双方都回答后才能看到</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🎉</div>
+      <h4>庆祝彩蛋</h4>
+      <p>兑现承诺 / 和解时，屏幕撒爱心~</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="icon">📱</span>怎么用？三步上手</h2>
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-content">
+      <h4>打开应用 → 设置个人信息</h4>
+      <p>点击底部「👤 我的」→「打开设置」→ 输入昵称和纪念日</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-content">
+      <h4>切换角色，各用各的</h4>
+      <p>顶部有 👦 / 👧 按钮，你是女生就切到 👧，他就是 👦。同一台手机轮流切，或者两台手机各用各的~</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-content">
+      <h4>开始记录！</h4>
+      <p>每天选心情、回答「每日一问」；吵架了记到「信箱」页面；他答应的事情写到「承诺看板」</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="icon">🔥</span>吵架后建议这样做</h2>
+  <div class="step">
+    <div class="step-num">🧊</div>
+    <div class="step-content">
+      <h4>Step 1：先冷静</h4>
+      <p>点右上角 🧊 开启冷静期，深呼吸15分钟</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-num">📝</div>
+    <div class="step-content">
+      <h4>Step 2：记录吵架</h4>
+      <p>去「信箱」页 →「记录一次吵架」，写下来：因为什么？学到了什么？</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-num">💌</div>
+    <div class="step-content">
+      <h4>Step 3：写道歉信</h4>
+      <p>有些话说不出口就写下来，让对方看到后用「我原谅Ta了」来和解</p>
+    </div>
+  </div>
+  <div class="tip">
+    <b>小秘诀：</b>和解后看看「关系健康周报」，你会发现每一次吵架都是成长的脚印 🌱
+  </div>
+</div>
+
+<div class="section" style="text-align:center">
+  <h2 style="justify-content:center"><span class="icon">💬</span>告诉他你记住了什么</h2>
+  <p style="font-size:13px;color:var(--text-light);margin-bottom:12px">
+    「你今天答应我的事，我帮你记在这里了😉」→ 下面有个承诺看板，<br>
+    答应的事情 + 截止日期，到时间会自动标红提醒！<br>
+    他再也不能说「我忘了」了 😏
+  </p>
+  <div style="font-size:48px">📝 → ✅ → 🎉</div>
+</div>
+
+<div class="section">
+  <h2><span class="icon">🆕</span>新功能速览</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <div class="emoji">🔔</div>
+      <h4>承诺提醒</h4>
+      <p>快到期的承诺会发通知提醒，不会再忘记啦</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🏷️</div>
+      <h4>承诺分类</h4>
+      <p>家务、约会、礼物...分类管理承诺更清晰</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🎂</div>
+      <h4>纪念日庆祝</h4>
+      <p>纪念日当天自动弹出庆祝画面和特效~</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">📡</div>
+      <h4>离线可用</h4>
+      <p>支持 PWA 离线使用，没网也能看记录</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🔗</div>
+      <h4>智能同步</h4>
+      <p>可选择是否包含照片，支持文件传输同步</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🧹</div>
+      <h4>数据清理</h4>
+      <p>一键清理旧数据，释放手机存储空间</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">💬</div>
+      <h4>Toast队列</h4>
+      <p>多条消息排队显示，不再重叠看不清</p>
+    </div>
+    <div class="feature-item">
+      <div class="emoji">🔵</div>
+      <h4>未读标记</h4>
+      <p>信箱有新信件时显示未读红点提醒</p>
+    </div>
+  </div>
+</div>
+
+<div class="phrase-box">
+  <p>💗 <b>我们的约定</b></p>
+  <p style="font-size:13px">不为了争对错来用这个App</p>
+  <p style="font-size:13px">而是为了让每一次不愉快之后</p>
+  <p style="font-size:13px">我们都能更懂对方一点</p>
+</div>
+
+<div class="footer">
+  <span class="hk-end">🐱🎀</span>
+  <p>💗 爱小皇帝 · 专属两人的感情空间</p>
+  <p>数据只存储在你自己的手机/电脑上，绝对私密 🔒</p>
+  <p style="margin-top:4px">将 index.html 发给对方就能一起用了~</p>
+  <p class="signature">Made with ❤️ for You</p>
+</div>
+
+</body>
+</html>

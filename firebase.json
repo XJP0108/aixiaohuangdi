@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "site": "aixiaohuangdi-26236",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "node_modules",
+      "package.json",
+      "package-lock.json",
+      "deploy.js",
+      "start-tunnel.ps1",
+      "deploy_result.txt",
+      "public-url.txt",
+      "*.md"
+    ]
+  }
+}
